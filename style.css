@@ -1,11 +1,13 @@
+.columnaDer {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
 body {
     background-color: olivedrab;
     border: 10px;
     border-color: aquamarine;
 }
 
-.columnaDer {
-    border: 5px outset red;
-    background-color: lightblue;
-    text-align: center;
-}
