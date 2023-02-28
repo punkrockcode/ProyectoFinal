@@ -1,13 +1,94 @@
-.columnaDer {
-    border: 5px outset red;
-    background-color: lightblue;
-    text-align: center;
+* {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(91, 133, 81);
+}
+header {
+    background-color: #878286;
+    color: rgb(255, 255, 255);
+    height: 10vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    padding-left: 100px;
 }
 
 
-body {
-    background-color: olivedrab;
-    border: 10px;
-    border-color: aquamarine;
+.datos {
+    
+    position: relative;
+    font-size: larger;
+    background-color: azure;
+    border-radius: 45px;
+    
+}
+
+
+footer {
+    background-color: #bdba9e;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar {
+    display: static;
+    position: relative;
+    list-style: none;
+    height: 5vh;
+    background-color: blanchedalmond;
+    width: 100vw;
+    left: 20%;
+    
+
+}
+
+.botin {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 5vh;
+    width: 100px;
+    position: static;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contfoto {
+    background-color: cadetblue;
+    height: 75vh;
+    width: 20%;
+    text-align: end;
+
+}
+
+p {
+    position: relative;
+    top: 75%;
+    text-align: center;
+}
+
+.contdatos {
+    position: relative;
+    left: 30vw;
+    height: 30vh;
+}
+img {
+    position: absolute;
+    left: 30px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: darkolivegreen;
+    
+    height: 300px;
+    width: 300px;
+    top: 200px;
 }
 
