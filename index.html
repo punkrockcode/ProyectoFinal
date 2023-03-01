@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -18,35 +19,62 @@
         
 
     </header>
-    <nav class="navbar">
-        <ul>
-            <li class="botin"><a href="">Informacion Personal</a></li>
-            <li class="botin"><a href="">Experiencia</a></li>
-            <li class="botin"><a href="">Habilidades</a></li>   
-        </ul>
-    </nav>
-    <main>
-        <div class="contfoto">
-        <img src="./profilepic.jpg" alt="foto de perfil">
-        <p>Hola! Mi nombre es Travis y estoy buscando trabajo.</p>
-        </div>
+    <div class="topnav">
         
-        
+        <a class="active" href="#" id="info" onclick="myFunction1()">Informacion </a>
+        <a href="#" id="expe" onclick="myFunction2()">Experiencia</a>
+        <a href="#" id="habi" onclick="myFunction3()">Habilidades</a>
+      </div>
 
+        <div class="card">
+            <img src="./profilepic.jpg" alt="Foto Perfil" style="width:100%">
+            <h1>Travis Lucas</h1>
+            <p class="title">Full-stack, Front-end</p>
+            <p>Argentina Programa 4.0 - Ticmas</p>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contactame</button></p>
+          </div>
+          <div class="contdatos">
+            <ul class="datos" id="datos">
+                <p> Datos Personales:
+                <li>Nombre: Travis Lucas</li>
+                <li>Email: travis.lucas@ejemplo.com</li>
+                <li>Fecha de nacimiento: 13/7/1977</li>
+                <li>Nacionalidad: Argentino</li>
+                <li>Direccion: 9945 Homestead Rd</li>
+                <li>Telefono: (727) 573-6902</li>
+            </ul>
+            </div>
+
+<div class="barraskill">
+          <p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+</div>        
+        
+<script src="./texto.js"></script>
     
-    </main>
-    <div class="contdatos">
-        <ul class="datos">
-            <i class="material-icons">cloud</i>
-            Datos Personales:
-            <li>Nombre: Travis Lucas</li>
-            <li>Email: travis.lucas@ejemplo.com</li>
-            <li>Fecha de nacimiento: 13/7/1977</li>
-            <li>Nacionalidad: Argentino</li>
-            <li>Direccion: 9945 Homestead Rd</li>
-            <li>Telefono: (727) 573-6902</li>
-        </ul>
-        </div>
+   
+    
     <footer>
         Creado por Sebastian J Chianea - 2023 - Buenos Aires - Argentina
         <p>Para Ticmas - Argentina Programa 4.0</p>
